@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.81454783"
-     inkscape:cx="148.28143"
-     inkscape:cy="2492.1917"
+     inkscape:zoom="1.1519446"
+     inkscape:cx="9.7746397"
+     inkscape:cy="2528.3578"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1642,5 +1642,11 @@
    id="tspan1541">font-size</tspan> to be <tspan
    style="font-weight:bold"
    id="tspan1539">14px</tspan></tspan></text>
+    <circle
+       style="opacity:1;fill:#2d4358;fill-opacity:1;stroke:none;stroke-width:0.246404"
+       id="circle335"
+       cx="-87.051361"
+       cy="625.54712"
+       r="1.3229166" />
   </g>
 </svg>

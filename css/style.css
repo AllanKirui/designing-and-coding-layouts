@@ -102,7 +102,7 @@ body {
 .burger {
    width: 1.875rem;
    height: 1.875rem;
-   background: url(/img/burger_closed.svg);
+   background: url(../img/burger_closed.svg);
    background-position: center;
    background-repeat: no-repeat;
    cursor: pointer;
@@ -110,7 +110,7 @@ body {
 }
 
 .burger.active {
-   background: url(/img/burger_open.svg);
+   background: url(../img/burger_open.svg);
    background-position: center;
    background-repeat: no-repeat;
    transform: rotate(180deg);
