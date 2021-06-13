@@ -101,7 +101,7 @@ What's in view:
 -  Semantic HTML5 markup
 -  Flexbox
 -  Desktop-first workflow
--  [Inkscape](https://inkscape.org) - Inkscape: Open Source Scalable Vector Graphics Editor
+-  [Inkscape](https://inkscape.org)
 
 ### Useful resources
 
