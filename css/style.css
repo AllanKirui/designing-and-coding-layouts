@@ -1,0 +1,176 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* Variables for the colors used and font sizes used */
+:root {
+   --piggy-pink: #efdded;
+   --pearly-purple: #a26aa7;
+   --midnight-blue: #2d4358;
+   --font-sm: 0.875rem; /* 14 px */
+   --font-med: 1.125rem; /* 18 px */
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   background-color: var(--piggy-pink);
+   font-family: "Poppins", sans-serif;
+   font-size: var(--font-sm);
+   color: var(--midnight-blue);
+}
+
+.container {
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translateX(-50%);
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 70vw;
+   height: 3.75rem;
+   padding: 0 1.75rem;
+   border: 2px solid var(--pearly-purple);
+   z-index: 2;
+}
+
+.logo p {
+   font-size: var(--font-med);
+   font-weight: bold;
+   cursor: pointer;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.logo p:hover {
+   opacity: 0.7;
+}
+
+.links a {
+   text-decoration: none;
+   color: var(--midnight-blue);
+   position: relative;
+}
+
+.links a:not(:last-child) {
+   margin-right: 3.125rem;
+}
+
+.links a::after {
+   content: "";
+   display: block;
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -20px;
+   opacity: 0;
+   height: 5px;
+   background-color: var(--midnight-blue);
+   transition: opacity 0.3s ease-in-out;
+}
+
+.links a:hover::after {
+   opacity: 1;
+}
+
+/* 
+ Note that global styles don't apply to buttons, form inputs
+ or even links, so styling for these elements needs to be done
+ explicitly
+ */
+
+.btn button {
+   padding: 0.5rem 1.25rem;
+   outline: none;
+   border: 1px solid var(--midnight-blue);
+   border-radius: 4px;
+   font-family: "Poppins", sans-serif;
+   font-size: 0.875rem;
+   background: none;
+   cursor: pointer;
+   transition: background 0.3s ease-in-out;
+}
+
+.btn button:hover {
+   background-color: var(--midnight-blue);
+   color: var(--piggy-pink);
+}
+
+.burger {
+   width: 1.875rem;
+   height: 1.875rem;
+   background: url(/img/burger_closed.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+
+.burger.active {
+   background: url(/img/burger_open.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   transform: rotate(180deg);
+}
+
+.menu {
+   position: absolute;
+   visibility: hidden;
+}
+
+.menu.active {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   visibility: visible;
+   width: 100%;
+   height: 50vh;
+   background-color: var(--midnight-blue);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.menu a {
+   text-decoration: none;
+   font-size: var(--font-med);
+   color: var(--piggy-pink);
+   cursor: pointer;
+   transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+   color: var(--pearly-purple);
+}
+
+.menu a:not(:last-child) {
+   margin-bottom: 1.875rem;
+}
+
+/* Media Queries */
+/* For screen sizes 1023px and below */
+@media (max-width: 1023px) {
+   .hide-for-mobile {
+      display: none;
+   }
+
+   .container {
+      width: 90vw;
+      border: 1px solid var(--pearly-purple);
+   }
+}
+
+/* For screen sizes 1024px and above */
+@media (min-width: 1024px) {
+   .hide-for-desktop {
+      display: none;
+   }
+
+   .menu.active {
+      display: none;
+   }
+}
