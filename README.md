@@ -1,6 +1,6 @@
 # Designing and Coding Layouts
 
-A breakdown of how I approach coding *my own* or *3rd party* designs.
+A breakdown of how I approach coding _my own_ or _3rd party_ designs.
 
 ## Table of contents
 
@@ -22,77 +22,82 @@ Where to start:
 
 ### Screenshots
 
-![](./img/1.png)
+![](./img/markdown_images/1.png)
 
-Screenshot 1 - A general overview of the design. (*Clicking on this image will give you a better view of the design*) 
-
-What's in view:
-- At the far left, there's a *Colors* and *Notes* section. I use this section to denote the colors, assets and anything else I will use while coding the actual design.
-  - The *Colors* section contains the *hex codes* for the colors used throughout the design.
-  - The *Notes* section contains key information to remember when coding the design.
-- At the bottom left, there's an *Assets* section.
-  - It contains icons for the menu burger in both *active* and  *inactive* states.
-- The middle section of the design contains the actual design of the *Navigation Bar*.
-- The last section, the far right, contains designs for the *Navigation Bar* on mobile.
-  - It shows the *active* and *inactive* states of the menu.
-
-![](./img/2.png)
-
-Screenshot 2 - A closer look at the left section of the design. (*Clicking on this image will give you a better view of the design*) 
+Screenshot 1 - A general overview of the design. (_Clicking on this image will give you a better view of the design_)
 
 What's in view:
-- In the *Notes* section, I've denoted the *font-weights* and *font-sizes* that will be used in coding the *Navigation Bar*.
 
-![](./img/3.png)
+-  At the far left, there's a _Colors_ and _Notes_ section. I use this section to denote the colors, assets and anything else I will use while coding the actual design.
+   -  The _Colors_ section contains the _hex codes_ for the colors used throughout the design.
+   -  The _Notes_ section contains key information to remember when coding the design.
+-  At the bottom left, there's an _Assets_ section.
+   -  It contains icons for the menu burger in both _active_ and _inactive_ states.
+-  The middle section of the design contains the actual design of the _Navigation Bar_.
+-  The last section, the far right, contains designs for the _Navigation Bar_ on mobile.
+   -  It shows the _active_ and _inactive_ states of the menu.
 
-Screenshot 3 - A closer look at the mid-section of the design featuring the *Navigation Bar*. (*Clicking on this image will give you a better view of the design*) 
+![](./img/markdown_images/2.png)
 
-What's in view:
-- I drew a rectangle to mimic the *browser size* on *desktop*. Here, I'm using *1366px by 657px* as the rectangle's *width* and *height*.
-- Here, there are two states defined for the *Navigation Bar*:
-  - A *default state* showing how the *Navigation Bar* will look by default.
-  - A *hover state* showing how the *Navigation Bar* will look on hover. We can see that the *logo* will have a reduced opacity, the *links* will have a bar below them, and the *button* will have a different colored background and text.
-
-![](./img/4.png)
-
-Screenshot 4 - A closer look at the *Navigation Bar* on mobile. (*Clicking on this image will give you a better view of the design*) 
+Screenshot 2 - A closer look at the left section of the design. (_Clicking on this image will give you a better view of the design_)
 
 What's in view:
-- A *menu closed* state.
-- A *menu open* state showing: 
-  - how the *links* will be positioned
-  - the *background size* and *color* for the *links* 
 
+-  In the _Notes_ section, I've denoted the _font-weights_ and _font-sizes_ that will be used while coding the _Navigation Bar_.
 
-![](./img/5.png)
+![](./img/markdown_images/3.png)
 
-Screenshot 5 - Annotations for the *Navigation Bar*. (*Clicking on this image will give you a better view of the design*) 
+Screenshot 3 - A closer look at the mid-section of the design featuring the _Navigation Bar_. (_Clicking on this image will give you a better view of the design_)
 
 What's in view:
-- Explanations on how I bring the design to life with code.
 
-![](./img/6.png)
+-  I drew a rectangle to mimic the _browser size_ on _desktop_. Here, I'm using _1366px by 657px_ as the rectangle's _width_ and _height_.
+-  Here, there are two states defined for the _Navigation Bar_:
+   -  A _default state_ showing how the _Navigation Bar_ will look by default.
+   -  A _hover state_ showing how the _Navigation Bar_ will look on hover. We can see that the _logo_ will have a reduced opacity, the _links_ will have a bar below them, and the _button_ will have a different colored background and text.
 
-Screenshot 6 - A final look at the coded design for desktops. (*Clicking on this image will give you a better view of the design*) 
+![](./img/markdown_images/4.png)
 
-What's in view:
-- The *Navigation Bar* in-browser.
-
-![](./img/7.png)
-
-Screenshot 7 - A look at the hover state on a link. (*Clicking on this image will give you a better view of the design*) 
-
-![](./img/8.png)
-
-Screenshot 8 - A look at the hover state on the button. (*Clicking on this image will give you a better view of the design*) 
-
-![](./img/9.png)
-
-Screenshot 9 - A final look at the coded design for mobile. (*Clicking on this image will give you a better view of the design*) 
+Screenshot 4 - A closer look at the _Navigation Bar_ on mobile. (_Clicking on this image will give you a better view of the design_)
 
 What's in view:
-- Clicking on the *burger* will toggle the *menu* containing the site's *links*.
 
+-  A _menu closed_ state.
+-  A _menu open_ state showing:
+   -  how the _links_ will be positioned
+   -  the _background size_ and _color_ for the _links_
+
+![](./img/markdown_images/5.png)
+
+Screenshot 5 - Annotations for the _Navigation Bar_. (_Clicking on this image will give you a better view of the design_)
+
+What's in view:
+
+-  Explanations on how I bring the design to life with code.
+
+![](./img/markdown_images/6.png)
+
+Screenshot 6 - A look at the coded design for desktops. (_Clicking on this image will give you a better view of the design_)
+
+What's in view:
+
+-  The _Navigation Bar_ in-browser.
+
+![](./img/markdown_images/7.png)
+
+Screenshot 7 - A look at the hover state on a link. (_Clicking on this image will give you a better view of the design_)
+
+![](./img/markdown_images/8.png)
+
+Screenshot 8 - A look at the hover state on the button. (_Clicking on this image will give you a better view of the design_)
+
+![](./img/markdown_images/9.png)
+
+Screenshot 9 - A look at the coded design for mobile. (_Clicking on this image will give you a better view of the design_)
+
+What's in view:
+
+-  Clicking on the _burger_ will toggle the _menu_ containing the site's _links_.
 
 ## My process
 
@@ -105,7 +110,7 @@ What's in view:
 
 ### Useful resources
 
--  [Inkscape](https://inkscape.org) - Inkscape SVG Editor. I use it all the time when I'm working on any web project. After designing this project, I used *Inkscape's* in-built tools to figure out the _spacing_, _sizing_ and _positioning_ of elements throughout the project.
+-  [Inkscape](https://inkscape.org) - Inkscape SVG Editor. I use it all the time when I'm working on any web project. After designing this project, I used _Inkscape's_ in-built tools to figure out the _spacing_, _sizing_ and _positioning_ of elements throughout the project.
 
 ## Author
 
